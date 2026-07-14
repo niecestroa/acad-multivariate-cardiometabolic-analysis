@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_import_clean_summary",
+  "source_file": "academic/code/MA Diabetes Code.sas",
+  "source_blob_sha": "e5da8be3a6acb3fcc23a1d75b4a607d6fcb53639",
+  "source_commit": "06f57f24e24f22a4dc0f11e5bf20f73d1ebf1080",
+  "notes": "PROC IMPORT of the repo CSV (hardcoded SAS OnDemand path) replaced by an inline DATALINES read of a 65-row sample from the repo's own data/Diabetes_Final_Data_V2.csv; the author's cleaning DATA step, PROC MEANS and PROC FREQ run verbatim."
+}
