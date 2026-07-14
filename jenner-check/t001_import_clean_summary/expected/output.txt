@@ -1,0 +1,48 @@
+
+  Obs  pulse_rate  systolic_bp  diastolic_bp  glucose  age  gender  hypertensive     bmi_cat
+-----  ----------  -----------  ------------  -------  ---  ------  ------------  ----------
+    1          66          110            73     5.88   42  Female             0  Overweight
+    2          68          161           113     6.01   35  Female             0  Overweight
+    3          78          139            81     6.68   35  Female             0  Overweight
+    4          78          130            91     5.31   22  Female             0  Overweight
+    5          65          176           103     6.83   60  Female             1  Overweight
+    6          70          184           111     5.75   50  Female             0  Overweight
+    7          58          176            89     7.02   50  Female             1  Overweight
+    8          85          162            92       12   70  Female             0  Overweight
+    9          67          116            84     6.41   33  Female             0  Overweight
+   10          68          148            82      6.5   50  Female             0  Overweight
+
+... 55 more observations (showing 10 of 65)
+
+                                                  The MEANS Procedure
+
+ Variable            N            Mean        Std Dev         Minimum         Maximum
+ ------------------------------------------------------------------------------------
+ pulse_rate         65      71.0153846     10.3115413      48.0000000     104.0000000
+ systolic_bp        65     140.0153846     22.3763912     104.0000000     207.0000000
+ diastolic_bp       65      85.5230769     12.3365662      54.0000000     118.0000000
+ glucose            65       6.8066154      1.5749844       4.4900000      12.0000000
+ age                65      45.2923077     14.7846236      18.0000000      75.0000000
+ ------------------------------------------------------------------------------------
+
+                                                   The FREQ Procedure
+
+                                    Cumulative    Cumulative
+gender    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------
+Female           48     73.85           48        73.85
+Male             17     26.15           65       100.00
+
+                                          Cumulative    Cumulative
+hypertensive    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------------
+0                      57     87.69           57        87.69
+1                       8     12.31           65       100.00
+
+                                         Cumulative    Cumulative
+bmi_cat        Frequency    Percent     Frequency      Percent
+--------------------------------------------------------------------
+Healthy               18     27.69           18        27.69
+Obese                 11     16.92           29        44.62
+Overweight            18     27.69           47        72.31
+Underweight           18     27.69           65       100.00

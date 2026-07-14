@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_logtransform_summary",
+  "source_file": "academic/code/MA Diabetes Code.sas",
+  "source_blob_sha": "e5da8be3a6acb3fcc23a1d75b4a607d6fcb53639",
+  "source_commit": "06f57f24e24f22a4dc0f11e5bf20f73d1ebf1080",
+  "notes": "Log-transform DATA step plus PROC MEANS/FREQ on the transformed responses, verbatim from the author's code; inline DATALINES sample from the repo CSV feeds the same cleaning pipeline."
+}
