@@ -1,5 +1,8 @@
 # **Investigating Cardiovascular & Metabolic Health Using Multivariate Analysis**
 
+## Academic Project Disclaimer
+This repository represents work completed as part of the Applied Multivariate Data Analysis curriculum at UTHealth Houston. All analyses, interpretations, and conclusions are intended solely for academic, educational, and methodological demonstration. The project is not a professional clinical analysis, and the results must not be used for medical decision‑making, diagnostic purposes, or real‑world health guidance.
+
 ## **Abstract**  
 This project examines how age, gender, BMI, and hypertension status jointly influence key cardiovascular and metabolic indicators—pulse rate, systolic and diastolic blood pressure, and glucose levels. Using MANOVA, MANCOVA, Hotelling’s T² tests, and multivariate regression, the analysis evaluates both independent and combined effects of demographic and clinical predictors. Box‑Cox transformations were applied to improve normality, and model comparisons highlight hypertension status and BMI as especially strong contributors to variation in health outcomes. The study demonstrates the value of multivariate methods in understanding interconnected physiological processes.
 
