@@ -2,20 +2,28 @@
 __pycache__/
 *.py[cod]
 
-# Virtual environments
 venv/
 .venv/
 env/
 
-# Jupyter
 .ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# SAS
+*.log
+*.lst
+*.bak
+*.sas7bdat
+*.sas7bcat
 
 # IDEs
 .vscode/
 .idea/
-
-# Environment variables
-.env
 
 # Testing
 .pytest_cache/
@@ -26,7 +34,10 @@ build/
 dist/
 *.egg-info/
 
-# Output files
+# Environment variables
+.env
+
+# Outputs
 outputs/
 figures/
 reports/
@@ -34,6 +45,3 @@ reports/
 # OS files
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
