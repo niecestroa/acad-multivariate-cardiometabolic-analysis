@@ -8,6 +8,36 @@ This project examines how age, gender, BMI, and hypertension status jointly infl
 
 ---
 
+## Installation
+
+```bash
+git clone https://github.com/niecestroa/acad-multivariate-cardiometabolic-analysis.git
+
+cd acad-multivariate-cardiometabolic-analysis
+
+pip install -r requirements.txt
+```
+
+## Skills Demonstrated
+
+- Multivariate Data Analysis
+- MANOVA
+- MANCOVA
+- Hotelling's T² Tests
+- Multivariate Regression
+- Box-Cox Transformations
+- Statistical Inference
+- Clinical Data Analysis
+- Public Health Analytics
+- Cardiometabolic Risk Analysis
+- Model Comparison
+- Data Cleaning
+- Exploratory Data Analysis
+- Python Programming
+- Reproducible Research
+
+---
+
 ## **Authors**  
 - **Weiyi Huang**  
 - **Aaron Niecestro**  
@@ -63,3 +93,9 @@ This academic project was completed as part of **Applied Multivariate Data Analy
 - Expand predictor set and include longitudinal data  
 - Improve outlier diagnostics and removal criteria  
 - Validate findings across multiple populations
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
